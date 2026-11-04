@@ -36,7 +36,7 @@ The bar resolves `pid` to a workspace, then reads the file. It knows nothing
 about maki, and the plugin knows nothing about the bar. That is the point: the
 bar does not link against maki and maki does not spawn the bar.
 
-Look at [swaybar.c](https://github.com/zipadoodlez/swaybar.c) for a complete
+Look at [swaybar.c](https://github.com/zipadoodlez/a_swaybar) for a complete
 consumer. It paints one coloured block per session, ordered by workspace.
 
 ## Install
